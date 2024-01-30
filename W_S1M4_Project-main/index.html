@@ -1,0 +1,88 @@
+<!-- Intro to HTML & CSS I
+
+  Module Project Overview
+
+    You will build a website to display the bio of your favorite programmer, artist, etc.
+
+    In order to do this, you will create an `index.html` file and scaffold the document
+    with the elements shared by all HTML documents:
+
+    - doctype declaration
+    - html element
+    - head, containing a title and an optional style tag
+    - body, containing the markup that renders to the screen
+
+  Requirements
+
+    Review this article: https://www.w3schools.com/html/html5_semantic_elements.asp
+
+    Create an `index.html` file for your site, or use this same file.
+
+    For your site, you will make use of at least the following semantic elements:
+
+    - header (to contain the main heading of the site, and the nav)
+    - nav (to contain some links to navigate to the different sections of this document)
+    - section (each holding at least a heading and a paragraph)
+    - aside (containing an img and a caption)
+    - footer (containing a contact form)
+    - form (containing at least two inputs with their labels)
+
+    See an example of a finished site: https://bloominstituteoftechnology.github.io/img/anita-borg-bio-website.png
+
+    The example above is quite simple, but you can make your site as fancy as you'd like. -->
+
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+     
+      <title>Kelly Clarkson</title>
+    </head>
+    <body>
+      <header>
+        <h1> Kelly Clarkson </h1>
+        <nav>
+          <a href="Overview">Overview</a>
+          <a href="career">Career</a>
+          <a href="artistry">Artistry</a>
+          <a href="contact">Contact</a>
+        </nav>
+      </header>
+      <main>
+        <section id="Overview"></section>
+          <h2> Overview</h2>
+          <aside>
+            <figure>
+            <img style="max-width: 100px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Kelly_Clarkson_2018_DoD_Warrior_Games_Opening_Ceremony_14_-_Cropped_01.jpg/330px-Kelly_Clarkson_2018_DoD_Warrior_Games_Opening_Ceremony_14_-_Cropped_01.jpg"" alt="Kelly Clarkson">
+            <figcaption>Clarkson in 2018</figcaption>
+            </figure>
+          </aside>
+          <p>Kelly Brianne (born Kelly Brianne Clarkson; April 24, 1982), is an American singer, songwriter, author, and television personality. She rose to fame after winning the first season of American Idol in 2002, which earned her a record deal with RCA Records. Her debut single, "A Moment Like This", topped the US Billboard Hot 100, and became the country's best-selling single of 2002. It was included on her debut studio album, Thankful (2003), which entered the Billboard 200 at number one, and also yielded the top-10 single "Miss Independent". Trying to reinvent her image, Clarkson parted ways with Idol management and shifted to pop rock for her second studio album, Breakaway (2004). Supported by four US top-ten singles – the title track, "Since U Been Gone", "Behind These Hazel Eyes", and "Because of You" - Breakaway sold over 12 million copies worldwide and won two Grammy Awards.</p>
+        
+          <section id="Career"></section>
+          <h2> Career</h2>
+          <p> Kelly Clarkson made her start by auditioning for the first season of American Idol. <br> 
+            This audition then led Kelly to win the singing competition earning her a record deal with RCA Records.<br>
+            From that point on she climbed the charts and even earned a spot in the television world <br>
+            as a talkshow host in 2019.</p>
+        
+            <section id="Artistry"></section>
+          <h2> Artistry</h2>
+          <p>Critics have described Clarkson as having a soprano voice.[167][168][169][170] Describing Clarkson's voice, Arion Berger of Rolling Stone wrote that "her high notes are sweet and pillowy, her growl is bone-shaking and sexy, and her mid-range is amazingly confident."[171] In reviewing a live performance of Clarkson's, Jon Caramanica of The New York Times said she "showed off a voice that moved in all sorts of ways, without ever appearing to strain", continuing "Ms. Clarkson, who has a malleable voice and a boatload of vocal confidence, might be a soul siren in the making". However, in a separate review of Stronger, Caramanica said Clarkson's voice is "too huge, too violent" for warmer and sweeter vocal stylings, stating "she's on a par with Taylor Swift when it comes to vengeance, and she'll do it louder and with more brutality in comparison to her contemporary."[172][173] In a live review as part of her Stronger Tour, Sophie Sinclair of Hit The Floor said "Kelly's strong and powerful voice was flawless throughout the night, and some may even say she sounds better live than she does on her albums".[174] Mark Deming from Phoenix New Times stated that "in an era when pop music means over-singing a song into a bloody pulp, Clarkson has consistently displayed both charisma and a welcome sense of restraint, knowing how to sound passionate and heartfelt without forgetting where the melody and the root note is supposed to go.</p>
+        
+          <section id="Contact"></section>
+          <h2>Contact the Webmaster</h2>
+          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+
+          <form action="">
+            <label>email
+              <input type="email" placeholder="type email" >
+            </label>
+            <label>message
+              <input type="text" placeholder="type a message to the webmaster">
+
+          </label>
+          </form>
+       </main>
+    </body>
+    </html>
